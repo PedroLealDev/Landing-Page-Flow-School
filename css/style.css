@@ -43,33 +43,13 @@
   gap: 0.6rem;
 }
 
-.container21 {
-  background-image: url(../images/equilibrio\ flow.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 0.3rem;
+.flowImgs {
   width: 100%;
-  height: 18rem;
-}
-.container22 {
-  background-image: url(../images/estado\ de\ flow\ feedback\ imediato.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 0.3rem;
-  width: 100%;
-  height: 18rem;
 }
 
-.container23 {
-  background-image: url(../images/estadoflow-sensacao.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 0.3rem;
-  width: 100%;
-  height: 18rem;
+.container03 {
+  gap: 0.6rem;
 }
 
 .titles {
