@@ -1,3 +1,130 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
 
+.header {
+  font-size: 16px;
+  font-weight: bold;
+}
 
-/*# sourceMappingURL=style.css.map */
+.nav-item {
+  margin: 0 2rem;
+}
+
+.container00 {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid #32cece;
+}
+
+.container01 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(5, 97, 98, 0.4962359943977591) 100%
+  );
+}
+
+.container02 {
+  background: rgb(32, 18, 54);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(1, 13, 145, 0.40379901960784315) 100%
+  );
+  gap: 0.6rem;
+}
+
+.container21 {
+  background-image: url(../images/equilibrio\ flow.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  width: 100%;
+  height: 18rem;
+}
+.container22 {
+  background-image: url(../images/estado\ de\ flow\ feedback\ imediato.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  width: 100%;
+  height: 18rem;
+}
+
+.container23 {
+  background-image: url(../images/estadoflow-sensacao.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  width: 100%;
+  height: 18rem;
+}
+
+.titles {
+  color: #41cccc;
+  font-size: 3rem;
+  font-weight: 650;
+}
+
+#signature {
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+#copy {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 500;
+}
+.payment {
+  text-align: center;
+  line-height: 190%;
+  margin: 1rem 0;
+}
+
+#just12x {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#price {
+  font-size: 60px;
+  color: #32cece;
+  font-weight: 800;
+}
+
+#acess {
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  padding: 0.4rem;
+  border: 0.1rem solid white;
+  border-radius: 0.4rem;
+}
+
+#checkItens {
+  line-height: 1.5rem;
+}
+
+#button {
+  padding: 0.8rem 1.2rem;
+  margin: 1.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.images {
+  width: 100%;
+  border-radius: 0.3rem;
+}
