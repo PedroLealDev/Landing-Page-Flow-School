@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300;400;600;800&family=Roboto:wght@300&display=swap");
+
+* {
+  color: white;
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-elements {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.nav-button {
+  background-color: transparent;
+  color: #34d4d4;
+  font-size: small;
+  margin: 0 1rem;
+  padding: 0.1rem 0.6rem;
+  border: 0.1rem solid #34d4d4;
+  border-radius: 0.3rem;
+}
+
+.section {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.container00 {
+  padding: 1rem 0;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid #34d4d4;
+  gap: 0.6rem;
+}
+
+.container01 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(5, 97, 98, 0.4962359943977591) 100%
+  );
+}
+
+#signature {
+  color: #34d4d4;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: -1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 0 1rem;
+  margin: 1.2rem;
+}
+
+.payment {
+  text-align: center;
+  line-height: 190%;
+}
+
+#just12x {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#price {
+  font-size: 60px;
+  color: #34d4d4;
+  font-weight: 800;
+}
+
+#acess {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.9rem;
+  border: 0.1rem solid rgb(224, 180, 59);
+  border-radius: 0.2rem;
+}
+
+.li {
+  margin: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#checkItens {
+  line-height: 1.5rem;
+}
+
+#button {
+  padding: 0.8rem 1.2rem;
+  margin: 1.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  -webkit-box-shadow: 0px 0px 16px 9px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0px 0px 16px 9px rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 16px 9px rgba(255, 255, 255, 0.4);
+}
+
+.container02 {
+  background: rgb(32, 18, 54);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(1, 13, 145, 0.40379901960784315) 100%
+  );
+}
+
+.flowImgs {
+  width: 94%;
+  border-radius: 0.3rem;
+}
+
+.copy {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+.container03 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(5, 97, 98, 0.4962359943977591) 100%
+  );
+  padding: 0.5rem 0;
+}
+
+.video {
+  margin-bottom: 1.5rem;
+  width: 94%;
+  border-radius: 0.5rem;
+}
+
+.depoimentos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.depoimento {
+  width: 94%;
+  border-radius: 0.3rem;
+}
+
+.images {
+  width: 94%;
+  border-radius: 0.3rem;
+}
+
+.container04 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(5, 97, 98, 0.4962359943977591) 100%
+  );
+  padding: 0.5rem;
+}
+.container05 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(5, 97, 98, 0.4962359943977591) 100%
+  );
+}
+.container06 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(5, 97, 98, 0.4962359943977591) 100%
+  );
+}
+
+.accordion {
+  margin: 0 0.5rem;
+}
+.accordion-body {
+  color: black;
+}
+
+@media (min-width: 425px) {
+  .subtitle {
+    font-size: 1.4rem;
+  }
+
+  .flowImgs {
+    max-width: 400px;
+  }
+
+  .copy {
+    max-width: 500px;
+  }
+
+  .images {
+    max-width: 400px;
+  }
+
+  .video {
+    max-width: 610px;
+  }
+
+  .depoimento {
+    max-width: 300px;
+  }
+
+  .accordion {
+    max-width: 600px;
+  }
+}
