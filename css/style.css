@@ -214,6 +214,35 @@
   color: black;
 }
 
+.footer {
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-copy {
+  padding: 0;
+  color: #868383;
+  line-height: 50%;
+}
+.social-media {
+  padding-bottom: 5px;
+}
+.anchor {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: white;
+}
+.anchor:hover {
+  color: #b9b9b9;
+}
+
 @media (min-width: 425px) {
   .subtitle {
     font-size: 1.4rem;
